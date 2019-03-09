@@ -1,0 +1,180 @@
+/* Elementos padrão do HTML */
+body {
+    text-align: center;
+    background-color: #2481b3;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+section {
+    display: table;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Classe */
+.par {
+    font-size: 1100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Id */
+#perfil {
+    border-radius: 150%;
+    margin-top: 3%;
+}
+
+#tit {
+    font-size: 400%;
+    color: white;
+    margin-top: 1%;
+}
+
+#inicio {
+    height: 100vh;
+}
+
+#linha {
+    color: white;
+    margin-top: 15%;
+}
+
+#front {
+    font-size: 400%
+}
+
+#par {
+    margin-top: 8%;
+}
+
+#par2 {
+    margin-top: 3%;
+}
+
+#email {
+    margin-top: 3%;
+    color: white;
+    font-size: 220%;
+}
+
+#git {
+    margin-top: 3%;
+}
+
+/* Deixando responsivo */
+@media only screen and (max-width: 980px) {
+    .cont {
+        width: 11%;
+    }
+
+    .par-img {
+        width: 15%;
+    }
+    
+    .node {
+        width: 22%;
+    }
+
+    #perfil {
+        width: 27%;
+    }
+
+    #tit {
+        font-size: 330%;
+    }
+    
+    #par {
+        font-size: 850%;
+    }
+
+    #front {
+        font-size: 300%;
+    }
+
+    #email {
+        font-size: 180%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cont {
+        width: 14%;
+    }
+
+    .par-img {
+        width: 18%;
+    }
+    
+    .node {
+        width: 25%;
+    }
+
+    #perfil {
+        width: 32%;
+    }
+
+    #tit {
+        font-size: 300%;
+    }
+
+    #par {
+        font-size: 600%;
+    }
+
+    #front {
+        font-size: 300%;
+    }
+
+    #email {
+        font-size: 165%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .cont {
+        margin-top: 8%;
+        width: 17%;
+    }
+
+    .par-img {
+        width: 15%;
+    }
+    
+    .node {
+        width: 25%;
+    }
+
+    #perfil {
+        width: 50%;
+    }
+
+    #tit {
+        margin-top: 5%;
+        font-size: 240%;
+    }
+
+    #par {
+        font-size: 420%;
+    }
+
+    #par2 {
+        font-size: 420%;
+    }
+
+    #front {
+        font-size: 180%;
+    }
+
+    #email {
+        font-size: 140%;
+        margin-top: 30%;
+    }
+}
